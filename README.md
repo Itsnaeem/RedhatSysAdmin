@@ -906,24 +906,3 @@ Podman is a container management tool that allows you to manage containers witho
   podman rmi centos
   ```
   This removes the CentOS image from the local system.
-
----
-
-## **14. Exam Preparation**
-
-### **14.1 Practice Scenarios**
-- **Simulating Tasks:**
-  - Set up an Apache web server on `server`, making sure it starts on boot and is accessible via HTTP.
-  - Configure NFS on `server` to share a directory, and mount it on `client`. Ensure proper permissions and SELinux contexts are set.
-  - Create and manage LVMs, ensuring that you can resize volumes and handle disk failures.
-  - Secure `server` using SELinux (enforcing mode) and firewalld, ensuring that only necessary ports are open.
-
-### **14.2 Time Management**
-- **Plan Your Exam Approach:**
-  - Quickly read through all tasks and identify the ones you’re most comfortable with. Start with those to secure points.
-  - Use your time wisely, balancing speed with accuracy. If you’re stuck on a task, move on and return to it later.
-  - Leave time at the end to review your work and ensure all required configurations are saved and applied.
-
----
-
-This detailed explanation provides both the "what" and "why" behind each command and action, making it easier to understand and apply the knowledge in real-world scenarios. Whether you’re preparing for the RHCSA exam or managing a Red Hat Linux system, these instructions and explanations should give you a solid foundation.
