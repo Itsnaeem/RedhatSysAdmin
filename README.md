@@ -256,9 +256,7 @@ Understanding how to configure network settings is crucial for connecting your s
   This shows the routing table, which determines how packets are routed to their destinations.
 
 - **Editing Network Configuration Files:**
-  ```
-
-bash
+  ```bash
   vi /etc/sysconfig/network-scripts/ifcfg-eth0
   ```
   Network interfaces are configured via files in `/etc/sysconfig/network-scripts/`. The `ifcfg-eth0` file contains configuration settings for the `eth0` interface.
@@ -518,10 +516,8 @@ Monitoring your system’s performance helps ensure it’s running optimally.
 - **Viewing System Load with `uptime`:**
   ```bash
   uptime
- 
-
- ```
-  This command shows how long the system has been running and the average system load over the last 1, 5, and 15 minutes. A high load number may indicate the system is overloaded.
+  ```
+This command shows how long the system has been running and the average system load over the last 1, 5, and 15 minutes. A high load number may indicate the system is overloaded.
 
 - **Memory Usage with `free`:**
   ```bash
